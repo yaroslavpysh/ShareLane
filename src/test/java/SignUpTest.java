@@ -8,8 +8,6 @@ import static org.testng.Assert.*;
 
 public class SignUpTest {
 
-    public SignUpTest() {
-    }
 
     @Test
     public void zipCode4Digits() {
@@ -49,7 +47,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void FirstNameAlphabet() {
+    public void firstNameAlphabet() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -66,7 +64,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void FirstNameDigits() {
+    public void firstNameDigits() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -85,7 +83,7 @@ public class SignUpTest {
 
 
     @Test
-    public void LastNameAlphabet() {
+    public void lastNameAlphabet() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -103,7 +101,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void LastNameDigits() {
+    public void lastNameDigits() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -121,7 +119,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void CorrectEmail() {
+    public void correctEmail() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -138,7 +136,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void IncorrectEmail() {
+    public void incorrectEmail() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -155,7 +153,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void PasswordEqualsPassword2() {
+    public void passwordEqualsPassword2() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -172,7 +170,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void PasswordNotEqualsPassword2() {
+    public void passwordNotEqualsPassword2() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
@@ -189,7 +187,7 @@ public class SignUpTest {
     }
 
     @Test
-    public void PasswordFieldsHide() {
+    public void passwordFieldsHide() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe/");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.sharelane.com/cgi-bin/register.py");
